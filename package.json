@@ -1,0 +1,9 @@
+{
+  "name": "url-checker-fullstack",
+  "private": true,
+  "scripts": {
+    "dev": "docker compose up --build",
+    "dev:backend": "npm --prefix backend run start:dev",
+    "dev:frontend": "npm --prefix frontend run dev"
+  }
+}
